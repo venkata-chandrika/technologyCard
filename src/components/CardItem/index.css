@@ -20,14 +20,21 @@
   border-radius: 15px;
   list-style-type: none;
   display: flex;
+
+  margin: 20px;
+}
+.eachCard {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px;
 }
 .img {
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end;
+  text-align: end;
 }
 .heading {
   color: #171f46;
