@@ -30,10 +30,7 @@
   align-items: center;
 }
 .img {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
+  align-self: flex-end;
   text-align: end;
 }
 .heading {
